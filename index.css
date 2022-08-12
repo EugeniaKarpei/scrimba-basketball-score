@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    color: white;
+}
+
+h3 {
+    margin: 20px 0 10px;
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-box {
+    width: 150px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    padding: 0;
+}
+
+.score {
+    margin: 0;
+    font-family: Score;
+    padding-top: 15px;
+}
+
+.increment-btn-box {
+    margin: 20px 0;
+}
+
+.increment-btn, .new-game-btn {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.increment-btn {
+    font-family: Score;
+    padding: 8px 8px 6px;
+    margin: 2px;
+}
+
+.new-game-btn {
+    margin: 5px 0 20px;
+    padding: 10px 16px 8px;
+    
+}
+
+.highlighted {
+    box-shadow: 0px 0px 5px #fff;
+}
+
+@font-face {
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-family: Score;
+}
